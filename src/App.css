@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+h1{
+  font-family: cursive;
+}
+.formlabel{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 26px;
+  font-weight: 700;
+}
+.forminput{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 15px;
+}
+.formcontainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.inputBox{
+  width: 180px;
+  height: 25px;
+}
+#b1{
+  width: 188px;
+  height: 25px;
+}
+body{
+  color: blue;
+}
+.navbar{
+  background-color: #323030;
+  height: 75px;    
+  display: flex;
+  flex-direction: row;
+}
+.button-container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 700px;
+}
+.login-btn{
+  padding-right: 15px;
+}
+.home-btn{
+  padding-right: 15px;
+}
+button{
+  height: 35px;
+  width: 135px;
+  color: rgb(4, 32, 61);
+  font-size: 15px;
+}
+button:hover{
+  background-color: rgb(35, 190, 126);
+  color: white;
+}
+.nav-c-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: dodgerblue;
+  font-family: cursive;
+  font-size: 20px;
+}
+#logo-name{
+  font-family: cursive;
+  font-size: larger;
+  padding-left: 5px;
+  font-weight: 900;
+}
